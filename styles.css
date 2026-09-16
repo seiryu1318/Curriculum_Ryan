@@ -3209,3 +3209,14 @@ html {
 @media (max-width: 330px) {
   .common-summary__items { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* ver.49 — keep one glass layer inside the search card */
+.search-form,
+.school-course-filter,
+.school-course-filter .cohort-selector label,
+.school-course-filter .school-course-list-button {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+.search-form { background: transparent !important; }
