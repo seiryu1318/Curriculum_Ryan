@@ -3429,3 +3429,11 @@ html {
   .course.csat-tested { column-gap: 5px !important; }
   .course-index--csat { min-width: 27px; height: 18px; padding: 0 4px; font-size: 9px; }
 }
+
+/* ver.53 — center subject-guide facts inside every card */
+.subject-guide-dialog__facts > div {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
